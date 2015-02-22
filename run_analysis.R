@@ -91,5 +91,5 @@ names(tidyData)[2] <- "ActivityName"
 # Write tidy data out to file
 
 tidyDataTxtFile <- "./tidyData.txt"
-write.table(tidyData,tidyDataTxtFile)
+write.table(tidyData,tidyDataTxtFile,row.names=FALSE)
 
